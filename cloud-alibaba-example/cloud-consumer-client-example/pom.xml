@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-provider-example</artifactId>
+    <artifactId>cloud-consumer-client-example</artifactId>
     <dependencies>
 
         <dependency>
@@ -46,4 +46,5 @@
         </dependency>
 
     </dependencies>
+
 </project>

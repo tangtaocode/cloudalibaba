@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>cloud-provider-example</module>
+        <module>cloud-consumer-client-example</module>
     </modules>
     <artifactId>cloud-alibaba-example</artifactId>
 
