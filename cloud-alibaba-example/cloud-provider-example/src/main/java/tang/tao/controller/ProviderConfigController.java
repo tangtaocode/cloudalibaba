@@ -10,11 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ProviderConfigController {
 
-    @Value("${provider.example:19910507}")
-    private String date;
+	@Value("${provider.example:19910507}")
+	private String date;
 
-    @RequestMapping("/config")
-    public String config(){
-        return date;
-    }
+	@RequestMapping("/config")
+	public String config() {
+		return date;
+	}
+
 }

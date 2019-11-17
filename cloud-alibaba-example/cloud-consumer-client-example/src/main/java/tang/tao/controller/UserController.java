@@ -8,11 +8,13 @@ import tang.tao.common.api.example.UserService;
 @RequestMapping("/user")
 @RestController
 public class UserController {
-    @Reference(version = "1.0.0")
-    private UserService userService;
 
-    @RequestMapping("/getUserName")
-    public String getUserName() {
-        return userService.getUserName();
-    }
+	@Reference(version = "1.0.0")
+	private UserService userService;
+
+	@RequestMapping("/getUserName")
+	public String getUserName() {
+		return userService.getUserName();
+	}
+
 }
