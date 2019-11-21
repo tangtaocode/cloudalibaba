@@ -12,6 +12,7 @@
     <modules>
         <module>cloud-provider-example</module>
         <module>cloud-consumer-client-example</module>
+        <module>cloud-gateway-example</module>
     </modules>
     <artifactId>cloud-alibaba-example</artifactId>
 
